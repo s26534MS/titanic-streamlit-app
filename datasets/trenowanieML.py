@@ -57,5 +57,5 @@ my_data = np.array([
 print(forest.predict(my_data))
 
 # Zapis modelu
-filename = "../materiały/model.sv"
+filename = "../model.sv"
 pickle.dump(forest, open(filename, "wb"))
